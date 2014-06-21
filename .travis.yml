@@ -1,0 +1,15 @@
+language: node_js
+
+node_js:
+  - "0.10"
+
+# install dependencies
+before_install:
+  - npm install -d
+  - ./node_modules/.bin/jshint src/
+
+# runs the jasba build
+install:
+  - npm start
+
+# travis automatically runs `npm test`
