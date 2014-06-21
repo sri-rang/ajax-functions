@@ -1,0 +1,9 @@
+{
+    "js": {
+        "type": "javascript",
+        "sources": ["src/ajax.js"],
+        "watch_folders": ["src"],
+        "target": "target/ajax.min.js",
+        "minify": true
+    }
+}

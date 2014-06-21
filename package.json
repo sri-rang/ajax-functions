@@ -1,0 +1,33 @@
+{
+    "name": "ajax-functions",
+    "version": "0.1.0",
+    "description": "minimalist ajax library",
+    "main": "src/ajax.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "start": "./node_modules/.bin/jasba",
+        "test": "./node_modules/.bin/mocha test/* --reporter spec"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Srirangan/evina.git"
+    },
+    "keywords": [
+        "ajax",
+        "http",
+        "http request"
+    ],
+    "author": "Srirangan <srirangan@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Srirangan/evina/issues"
+    },
+    "homepage": "https://github.com/Srirangan/evina",
+    "devDependencies": {
+        "mocha": "*",
+        "jasba": "*",
+        "jshint": "*"
+    }
+}
