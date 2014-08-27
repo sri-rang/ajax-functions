@@ -27,8 +27,12 @@
             };
         }
 
+        if (window.FormData) {
+            if (!(data instanceof window.FormData)) data = JSON.stringify(data);
+        }
+        else data = JSON.stringify(data);
+
         request.open("POST", url, true);
-        if (!(data instanceof FormData)) data = JSON.stringify(data);
         request.send(data);
     }
 
